@@ -46,7 +46,7 @@ const Navbar = () => {
                         <ul
                             className={`${
                                 open ? "block" : "hidden"
-                            } bg-orange-200/90 opacity-95 text-xl md:text-3xl lg:text-5xl font-bold shadow-2xl fixed  left-5 right-5 top-5 bottom-5  flex flex-col justify-center items-center   rounded-xl    z-40  overflow-hidden gap-3 `}
+                            } bg-blue-200/90 opacity-95 text-xl md:text-3xl lg:text-5xl font-bold shadow-2xl fixed  left-5 right-5 top-5 bottom-5  flex flex-col justify-center items-center   rounded-xl    z-40  overflow-hidden gap-3 `}
                         >
                             {menuItems.map((item) => (
                                 <li
